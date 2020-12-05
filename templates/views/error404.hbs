@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	{{>links}}	
+</head>
+<body>
+    {{>nav}}
+
+    <!-- main header -->
+    <div class="container-fluid main_header">
+        <div class="row">
+            <div class="col-md-10 col-12 mx-auto">
+                <div class="row">
+                    <!-- left header -->
+                    <div class="col-md-12 col-12 main_header_left align-items-center">
+                        <figure class="main_error">
+                            <img src="images/errorimg.png" alt="about" class="img-fluid" title="masteroot_weather">
+                        </figure>
+                        <p> Welcome to Weather Station </p>
+                        <h1> {{errormsg}} </h1>
+                        <a href="/"> <button> Go Back </button> </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    {{>footer}}
+</body>
+</html>
